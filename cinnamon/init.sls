@@ -15,5 +15,6 @@ cinnamon:
   pkg:
     - latest
     - name: {{ cinnamon.pkg }}
+    - refresh: True
     - require:
       - pkg: linuxmint-keyring
