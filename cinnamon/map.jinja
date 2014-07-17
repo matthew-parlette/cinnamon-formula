@@ -1,4 +1,4 @@
-{% set template = salt['grains.filter_by']({
+{% set cinnamon = salt['grains.filter_by']({
     'Ubuntu': {
         'pkg': 'cinnamon',
         'pkgrepo': 'deb http://packages.linuxmint.com/ qiana main upstream import',
