@@ -1,5 +1,5 @@
 {% set cinnamon = salt['grains.filter_by']({
-    'Ubuntu': {
+    'Debian': {
         'pkg': 'cinnamon',
         'pkgrepo': 'deb http://packages.linuxmint.com/ qiana main upstream import',
         'pkgrepo_file': '/etc/apt/sources.list.d/cinnamon.list',
