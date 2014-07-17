@@ -4,6 +4,7 @@ linuxmint-keyring:
   pkg:
     - latest
     - name: {{ cinnamon.keyring_pkg }}
+    - skip_verify: True
     - require:
       - pkgrepo: cinnamon
 
